@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculate</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <script src="src/index.js"></script>
+  <body>
+    <h1>Welcome to the Bakery!</h1>
+
+    <form class="bakery-form">
+      <div class="item-1">
+        <input type="checkbox" class="checkbox" name="option-1" value="500" />
+        <label for="option-1">Cake</label>
+        <input
+          type="number"
+          name="quantity"
+          id="quantity1"
+          placeholder="Quantity"
+        />
+      </div>
+
+      <div class="item-2">
+        <input type="checkbox" class="checkbox" name="option-2" value="100" />
+        <label for="option-1">Muffin</label>
+        <input
+          type="number"
+          name="quantity"
+          id="quantity2"
+          placeholder="Quantity"
+        />
+      </div>
+
+      <div class="item-3">
+        <input type="checkbox" class="checkbox" name="option-3" value="75" />
+        <label for="option-1">Donut</label>
+        <input
+          type="number"
+          name="quantity"
+          id="quantity3"
+          placeholder="Quantity"
+        />
+      </div>
+
+      <div>
+        <button type="submit" id="submit-type">Submit</button>
+      </div>
+      <h3>Total Price :</h3>
+      <div id="result"></div>
+    </form>
+  </body>
+</html>
